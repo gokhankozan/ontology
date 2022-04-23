@@ -1,0 +1,500 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="urn:webprotege:ontology:173f9ded-f8a6-4c3d-a31c-460cb9ecb4d8#"
+     xml:base="urn:webprotege:ontology:173f9ded-f8a6-4c3d-a31c-460cb9ecb4d8"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="urn:webprotege:ontology:173f9ded-f8a6-4c3d-a31c-460cb9ecb4d8"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/contributor -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/contributor"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/coverage -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/coverage"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/format -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/format"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/identifier -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/identifier"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/language -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/language"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/publisher -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/publisher"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/subject -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/subject"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R2Ln0KPQ71q1D9wX5hXYzx -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R2Ln0KPQ71q1D9wX5hXYzx">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9mEAv8Le4TtFOX1dfzCTis"/>
+        <dc:creator xml:lang="tr">Kafesoğlu, İbrahim</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2014</dc:date>
+        <dc:format xml:lang="tr">Basılı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">978-6051551951</dc:identifier>
+        <dc:language xml:lang="tr">Türkçe</dc:language>
+        <dc:publisher xml:lang="tr">Ötüken Neşriyat</dc:publisher>
+        <dc:subject xml:lang="tr">Tarih, Anadolu Selçuklu Devleti, Sultan Melikşah</dc:subject>
+        <dc:title xml:lang="tr">Sultan Melikşah Devrinde Büyük Selçuklu İmparatorluğu</dc:title>
+        <rdfs:label xml:lang="tr">Sultan Melikşah Devrinde Büyük Selçuklu İmparatorluğu</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.amazon.com.tr/Sultan-Melikşah-Devrinde-Selçuklu-İmparatorluğu/dp/6051551956/ref=sr_1_1?__mk_tr_TR=ÅMÅŽÕÑ&amp;keywords=melikşah&amp;qid=1650718044&amp;s=books&amp;sr=1-1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R2lnV1go2Em7aVqBqYYibp -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R2lnV1go2Em7aVqBqYYibp">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8rLg1dMuIQP4Yn6hr67CJb"/>
+        <dc:contributor xml:lang="tr">Yener, Emir</dc:contributor>
+        <dc:creator xml:lang="en">Fields, Nic</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2021</dc:date>
+        <dc:format xml:lang="tr">Basılı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9786257631020</dc:identifier>
+        <dc:language xml:lang="tr">Türkçe</dc:language>
+        <dc:publisher xml:lang="tr">Kronik Kitap</dc:publisher>
+        <dc:subject xml:lang="tr">Tarih, Avrupa Hunları, Attila</dc:subject>
+        <dc:title xml:lang="tr">Hunlar Hakanı Attila: Attila the Hun</dc:title>
+        <rdfs:label xml:lang="tr">Attila</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.amazon.com.tr/Hunlar-Hakanı-Attila-Hun/dp/6257631025/ref=sr_1_1?__mk_tr_TR=ÅMÅŽÕÑ&amp;crid=12Y30DGZ4GYFR&amp;keywords=Attila&amp;qid=1650713103&amp;sprefix=attila%2Caps%2C183&amp;sr=8-1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7HsiDQlfQrwrJkFCl5qniP -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7HsiDQlfQrwrJkFCl5qniP">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8rLg1dMuIQP4Yn6hr67CJb"/>
+        <dc:coverage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M.S 375-469</dc:coverage>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Çavga, Murat</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2020</dc:date>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Basılı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">978-6257031516</dc:identifier>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Türkçe</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parola Yayınları</dc:publisher>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarih, Avrupa Hunları</dc:subject>
+        <dc:title xml:lang="tr">Avrupa Hun İmparatorluğu</dc:title>
+        <rdfs:label xml:lang="tr">Avrupa Hun İmparatorluğu</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.amazon.com.tr/Avrupa-Hun-İmparatorluğu-Devletleri-375-469/dp/6257031516/ref=sr_1_2?crid=3FWQX5PM3Z80W&amp;keywords=avrupa+hun+imparatorluğu&amp;qid=1650712164&amp;sprefix=Avrupa+hun%2Caps%2C157&amp;sr=8-2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8E9IURQNzFTtDIGYGu9q19 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8E9IURQNzFTtDIGYGu9q19">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RClU56VdgZ902ldrFYK7tML"/>
+        <dc:coverage xml:lang="tr">M.Ö 204 - M.S 216</dc:coverage>
+        <dc:creator xml:lang="tr">Çavga, Murat</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2020</dc:date>
+        <dc:format xml:lang="tr">Basılı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9786257031493</dc:identifier>
+        <dc:language xml:lang="tr">Türkçe</dc:language>
+        <dc:publisher xml:lang="tr">Parola Yayınları</dc:publisher>
+        <dc:subject xml:lang="tr">Tarih, Büyük Hun</dc:subject>
+        <dc:title xml:lang="tr">Büyük Hun İmparatorluğu</dc:title>
+        <rdfs:label xml:lang="tr">Büyük Hun İmparatorluğu</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.amazon.com.tr/Büyük-Hun-İmparatorluğu-M-Ö-204/dp/6257031494/ref=sr_1_1?__mk_tr_TR=ÅMÅŽÕÑ&amp;crid=4C0CAI50O0YC&amp;keywords=büyük+hun+imparatorluğu&amp;qid=1650712209&amp;sprefix=büyük+hun+imparatorluğu+%2Caps%2C102&amp;sr=8-1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8EvgNumr6mDIJovB51Y4pb -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8EvgNumr6mDIJovB51Y4pb">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Rv20mfEcuRNdZmagdQjMD3"/>
+        <dc:creator xml:lang="tr">Aydın, Erhan</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2021</dc:date>
+        <dc:format xml:lang="tr">Basılı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9786059521789</dc:identifier>
+        <dc:language xml:lang="tr">Türkçe</dc:language>
+        <dc:publisher xml:lang="tr">Bilge Kültür Sanat</dc:publisher>
+        <dc:subject xml:lang="tr">Tarih, Uygurlar, Yazıtlar</dc:subject>
+        <dc:title xml:lang="tr">Uygur Yazıtları</dc:title>
+        <rdfs:label xml:lang="tr">Uygur Yazıtları</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.amazon.com.tr/Uygur-Yazıtları-Erhan-Aydın/dp/6059521789/ref=sr_1_8?keywords=uygur+kağanlığı&amp;qid=1650714911&amp;sprefix=uygur%2Caps%2C194&amp;sr=8-8"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8NSrG0hNbdkB34FYbkQqG5 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8NSrG0hNbdkB34FYbkQqG5">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8s3UXOiuxW2ZArufNgWive"/>
+        <dc:creator xml:lang="tr">Atatürk, Mustafa Kemal</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2011</dc:date>
+        <dc:format xml:lang="tr">Basılı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9789750820038</dc:identifier>
+        <dc:language xml:lang="tr">Türkçe</dc:language>
+        <dc:publisher xml:lang="tr">Yapı Kredi Yayınları</dc:publisher>
+        <dc:subject xml:lang="tr">Tarih, Türkiye, Kurtuluş Savaşı</dc:subject>
+        <dc:title xml:lang="tr">Nutuk</dc:title>
+        <rdfs:label xml:lang="tr">Nutuk</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.amazon.com.tr/Nutuk-Kutulu-Ciltli-Mustafa-Atatürk/dp/9750820037/ref=sr_1_1?crid=JBH3G2EAQXB&amp;keywords=nutuk&amp;qid=1650719405&amp;s=books&amp;sprefix=nutuk%2Cstripbooks%2C112&amp;sr=1-1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8XWIJnOpFPSYetxFP2pAsb -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8XWIJnOpFPSYetxFP2pAsb">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCDTCWrXv8KtT0E5zXSTKH4"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarihte yeri olan kitapların olduğu bölüm.</rdfs:comment>
+        <rdfs:label xml:lang="tr">Tarih Kitapları</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8lpJRdHB4F8U1nOTAB5ANc -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8lpJRdHB4F8U1nOTAB5ANc">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Rv20mfEcuRNdZmagdQjMD3"/>
+        <dc:contributor xml:lang="tr">Demir, Doğan Mert</dc:contributor>
+        <dc:coverage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">744-840</dc:coverage>
+        <dc:creator xml:lang="tr">Yıldırım, Kürşat</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2021</dc:date>
+        <dc:format xml:lang="tr">Basılı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9786054944958</dc:identifier>
+        <dc:language xml:lang="tr">Türkçe</dc:language>
+        <dc:publisher xml:lang="tr">Selenge Yayınları</dc:publisher>
+        <dc:subject xml:lang="tr">Tarih, Uygur Kağanlığı</dc:subject>
+        <dc:title xml:lang="tr">Uygur Kağanlığı</dc:title>
+        <rdfs:label xml:lang="tr">Uygur Kağanlığı</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.amazon.com.tr/Uygur-Kağanlığı-744-840-Kürşat-Yıldırım/dp/6054944959/ref=sr_1_3?keywords=uygur+kağanlığı&amp;qid=1650714911&amp;sprefix=uygur%2Caps%2C194&amp;sr=8-3"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8peO4T3LvZ3sgOiZN9aZIM -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8peO4T3LvZ3sgOiZN9aZIM">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDNTiwby8jdEvqRoPsAEDva"/>
+        <rdfs:comment xml:lang="tr">Osmanlı İmparatorluğu ile ilgili yazılan eserler buradadır.</rdfs:comment>
+        <rdfs:label xml:lang="tr">Osmanlı İmparatorluğu</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8q6fLvwCxXqlV0c97nWgqQ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8q6fLvwCxXqlV0c97nWgqQ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RgHbgAQ0cHPFjuoylCMf4X"/>
+        <dc:creator xml:lang="tr">Taşağıl, Ahmet</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2015</dc:date>
+        <dc:format xml:lang="tr">Basılı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9789751624604</dc:identifier>
+        <dc:language xml:lang="tr">Türkçe</dc:language>
+        <dc:publisher xml:lang="tr">Türk Tarih Kurumu Yayınları</dc:publisher>
+        <dc:subject xml:lang="tr">Tarih, Göktürkler</dc:subject>
+        <dc:title xml:lang="tr">Göktürkler</dc:title>
+        <rdfs:label xml:lang="tr">Göktürkler</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.amazon.com.tr/Göktürkler-I-II-III-Ahmet-Taşağıl/dp/9751624606/ref=sr_1_2?__mk_tr_TR=ÅMÅŽÕÑ&amp;crid=2I6SUJUX27ITT&amp;keywords=göktürkler&amp;qid=1650713549&amp;sprefix=göktürkler%2Caps%2C114&amp;sr=8-2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8rLg1dMuIQP4Yn6hr67CJb -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8rLg1dMuIQP4Yn6hr67CJb">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDNTiwby8jdEvqRoPsAEDva"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avrupa Hun Devleti hakkında kitaplar bulunmaktadır.</rdfs:comment>
+        <rdfs:label xml:lang="tr">Avrupa Hun Devleti</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8s3UXOiuxW2ZArufNgWive -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8s3UXOiuxW2ZArufNgWive">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDNTiwby8jdEvqRoPsAEDva"/>
+        <rdfs:comment xml:lang="tr">Turkiye Cumhuriyeti ile ilgili eserler burada bulunmaktadır.</rdfs:comment>
+        <rdfs:label xml:lang="tr">Türkiye Cumhuriyeti</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9mEAv8Le4TtFOX1dfzCTis -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9mEAv8Le4TtFOX1dfzCTis">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDNTiwby8jdEvqRoPsAEDva"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anadolu Selçuklu Devleti hakkında yazılmış kitaplar</rdfs:comment>
+        <rdfs:label xml:lang="tr">Anadolu Selçuklu Devleti</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBDNTjk99FDn3vgmI7M3glf -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBDNTjk99FDn3vgmI7M3glf">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9mEAv8Le4TtFOX1dfzCTis"/>
+        <dc:creator xml:lang="tr">Bedirhan, Yaşar</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2004</dc:date>
+        <dc:format xml:lang="tr">Basılı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9789758890156</dc:identifier>
+        <dc:language xml:lang="tr">Türkçe</dc:language>
+        <dc:publisher xml:lang="tr">Eğitim Yayınevi</dc:publisher>
+        <dc:subject xml:lang="tr">Tarih, Anadolu Selçuklu</dc:subject>
+        <dc:title xml:lang="tr">Malazgirt’ten Vatana Anadolu Selçuklu Devleti Tarihi</dc:title>
+        <rdfs:label xml:lang="tr">Malazgirt’ten Vatana Anadolu Selçuklu Devleti Tarihi</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.amazon.com.tr/ANADOLU-SELÇUKLU-DEVLETİ-TARİHİ-Kolektif/dp/9758890158/ref=sr_1_1?__mk_tr_TR=ÅMÅŽÕÑ&amp;crid=Q7DJXZ7NHETN&amp;keywords=anadolu+selçuklu&amp;qid=1650717546&amp;rnid=12466380031&amp;s=books&amp;sprefix=anadolu+selçuklu%2Cstripbooks%2C107&amp;sr=1-1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBnS92b7HdP89q61i33QLBW -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBnS92b7HdP89q61i33QLBW">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8peO4T3LvZ3sgOiZN9aZIM"/>
+        <dc:creator xml:lang="tr">İnalcık, Halil</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2017</dc:date>
+        <dc:format xml:lang="tr">Basılı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9789944886451</dc:identifier>
+        <dc:language xml:lang="tr">Türkçe</dc:language>
+        <dc:publisher xml:lang="tr">İş Bankası Kültür Yayınları</dc:publisher>
+        <dc:subject xml:lang="tr">Tarih, Osmanlı İmparatorluğu</dc:subject>
+        <dc:title xml:lang="tr">Devlet-i Aliyye - I: Osmanlı İmparatorluğu Üzerine Araştırmalar 1</dc:title>
+        <rdfs:label xml:lang="tr">Devlet-i Aliyye - I: Osmanlı İmparatorluğu Üzerine Araştırmalar 1</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.amazon.com.tr/Devlet-i-Aliyye-Osmanlı-İmparatorluğu-Araştırmalar/dp/9944886459/ref=sr_1_2?keywords=halil+inalcık&amp;qid=1650718374&amp;s=books&amp;sprefix=halil+%2Cstripbooks%2C121&amp;sr=1-2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBvfEcNy5ufSu2u4hZBBP82 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBvfEcNy5ufSu2u4hZBBP82">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8s3UXOiuxW2ZArufNgWive"/>
+        <dc:creator xml:lang="tr">Kolektif</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2017</dc:date>
+        <dc:format xml:lang="tr">Basılı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">978-9750514623</dc:identifier>
+        <dc:language xml:lang="tr">Türkçe</dc:language>
+        <dc:publisher xml:lang="tr">İletişim Yayınları</dc:publisher>
+        <dc:subject xml:lang="tr">Tarih, Türkiye Cumhuriyeti, 1960</dc:subject>
+        <dc:title xml:lang="tr">Türkiye Tarihi : 1960&apos;tan Günümüze</dc:title>
+        <rdfs:label xml:lang="tr">Türkiye Tarihi : 1960&apos;tan Günümüze</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.amazon.com.tr/TÜRKİYE-TARİHİ-1960-TAN-GÜNÜMÜZE/dp/9750514629/ref=sr_1_6?crid=KOV0ARAD2K36&amp;keywords=türkiye+tarihi&amp;qid=1650719116&amp;s=books&amp;sprefix=Türkiye+tar%2Cstripbooks%2C103&amp;sr=1-6"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBzwbrOF3zzPOp1AKERRvp7 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBzwbrOF3zzPOp1AKERRvp7">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RYoKcuWRnwb6WMQWHH0Nkg"/>
+        <dc:creator xml:lang="tr">Piyadeoğlu, Cihan</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2016</dc:date>
+        <dc:format xml:lang="tr">Basılı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9786058301115</dc:identifier>
+        <dc:language xml:lang="tr">Türkçe</dc:language>
+        <dc:publisher xml:lang="tr">Kronik Kitap</dc:publisher>
+        <dc:subject xml:lang="tr">Tarih, Büyük Selçuklu,</dc:subject>
+        <dc:title xml:lang="tr">Sultan Alp Arslan: Fethin Babası</dc:title>
+        <rdfs:label xml:lang="tr">Sultan Alp Arslan: Fethin Babası</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.amazon.com.tr/Sultan-Alp-Arslan-Fethin-Babası/dp/6058301114/ref=sr_1_3?__mk_tr_TR=ÅMÅŽÕÑ&amp;crid=G6XWUHP9AV7W&amp;keywords=alparslan&amp;qid=1650716779&amp;rnid=12466380031&amp;s=books&amp;sprefix=alparslan%2Cstripbooks%2C104&amp;sr=1-3"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCDTCWrXv8KtT0E5zXSTKH4 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCDTCWrXv8KtT0E5zXSTKH4">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label xml:lang="tr">Kitaplar</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCS1E8etZrxWLO0B53MAbS3 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCS1E8etZrxWLO0B53MAbS3">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RClU56VdgZ902ldrFYK7tML"/>
+        <dc:creator xml:lang="tr">Erdoğan, Mehmet Kemal</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</dc:date>
+        <dc:format xml:lang="tr">Basılı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9786059916363</dc:identifier>
+        <dc:language xml:lang="tr">Türkçe</dc:language>
+        <dc:publisher xml:lang="tr">Kariyer Yayınları</dc:publisher>
+        <dc:subject xml:lang="tr">Tarih, Büyük Hun, Mete Han</dc:subject>
+        <dc:title xml:lang="tr">Mete Han</dc:title>
+        <rdfs:label xml:lang="tr">Mete Han</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.amazon.com.tr/Mete-Han-Mehmet-Kemal-Erdoğan/dp/6059916368/ref=sr_1_3?crid=2A02M8HJ4ROF3&amp;keywords=mete+han&amp;qid=1650712671&amp;sprefix=mete+han%2Caps%2C118&amp;sr=8-3"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RClU56VdgZ902ldrFYK7tML -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RClU56VdgZ902ldrFYK7tML">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDNTiwby8jdEvqRoPsAEDva"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Büyük Hun Devleti hakkında kitaplar bulunmaktadır.</rdfs:comment>
+        <rdfs:label xml:lang="tr">Büyük Hun Devleti</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDNTiwby8jdEvqRoPsAEDva -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDNTiwby8jdEvqRoPsAEDva">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8XWIJnOpFPSYetxFP2pAsb"/>
+        <rdfs:comment xml:lang="tr">Tarihimizde yer alan devletlerin bulunduğu dönemlere göre yazıldığı kitaplar bulunmaktadır.</rdfs:comment>
+        <rdfs:label xml:lang="tr">Dönem Kitapları</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDQy3YAhKx8E85jfxCXQJfZ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDQy3YAhKx8E85jfxCXQJfZ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8peO4T3LvZ3sgOiZN9aZIM"/>
+        <dc:creator xml:lang="tr">İnalcık, Halil</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</dc:date>
+        <dc:format xml:lang="tr">Basılı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9786257999120</dc:identifier>
+        <dc:language xml:lang="tr">Türkçe</dc:language>
+        <dc:publisher xml:lang="tr">İş Bankası Kültür Yayınları</dc:publisher>
+        <dc:subject xml:lang="tr">Tarih, Osmanlı İmparatorluğu, Fatih Sultan Mehmet</dc:subject>
+        <dc:title xml:lang="tr">Fatih Sultan Mehemmed Han (Ciltli): İki Karanın Sultanı, İki Denizin Hakanı, Kayser-i Rum</dc:title>
+        <rdfs:label xml:lang="tr">Fatih Sultan Mehemmed Han : İki Karanın Sultanı, İki Denizin Hakanı, Kayser-i Rum</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.amazon.com.tr/Fatih-Sultan-Mehemmed-Han-Ciltli/dp/625799912X/ref=sr_1_1?keywords=halil+inalcık&amp;qid=1650718374&amp;s=books&amp;sprefix=halil+%2Cstripbooks%2C121&amp;sr=1-1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDlrrY6niGjz5FKJYjgv6nM -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDlrrY6niGjz5FKJYjgv6nM">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RgHbgAQ0cHPFjuoylCMf4X"/>
+        <dc:creator xml:lang="tr">Taşağıl, Ahmet</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2021</dc:date>
+        <dc:format xml:lang="tr">Basılı</dc:format>
+        <dc:identifier xml:lang="tr">9786057800206</dc:identifier>
+        <dc:language xml:lang="tr">Türkçe</dc:language>
+        <dc:publisher xml:lang="tr">Yeditepe Yayınevi</dc:publisher>
+        <dc:subject xml:lang="tr">Tarih, Göktürkler, Tonyukuk</dc:subject>
+        <dc:title xml:lang="tr">Tonyukuk - Bilge Türk</dc:title>
+        <rdfs:label xml:lang="tr">Tonyukuk - Bilge Türk</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.amazon.com.tr/Tonyukuk-Bilge-Ciltli-Ahmet-Taşağıl/dp/6057800206/ref=sr_1_4?__mk_tr_TR=ÅMÅŽÕÑ&amp;crid=3T9EA8KBFUYVA&amp;keywords=bilge+kağan&amp;qid=1650714540&amp;sprefix=bilge+kağan%2Caps%2C112&amp;sr=8-4"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RYoKcuWRnwb6WMQWHH0Nkg -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RYoKcuWRnwb6WMQWHH0Nkg">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDNTiwby8jdEvqRoPsAEDva"/>
+        <rdfs:comment xml:lang="tr">Büyük Selçuklu Devleti hakkında yazılmış kitaplar bulunmaktadır.</rdfs:comment>
+        <rdfs:label xml:lang="tr">Büyük Selçuklu Devleti</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RgHbgAQ0cHPFjuoylCMf4X -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RgHbgAQ0cHPFjuoylCMf4X">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDNTiwby8jdEvqRoPsAEDva"/>
+        <rdfs:comment xml:lang="tr">Göktürk Kağanlığı ile ilgili kitaplar burada bulunmaktadır.</rdfs:comment>
+        <rdfs:label xml:lang="tr">Göktürk Kağanlığı</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rv20mfEcuRNdZmagdQjMD3 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rv20mfEcuRNdZmagdQjMD3">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDNTiwby8jdEvqRoPsAEDva"/>
+        <rdfs:comment xml:lang="tr">Uygur Kağanlığı ile ilgili kitaplar içermektedir.</rdfs:comment>
+        <rdfs:label xml:lang="tr">Uygurlar</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RwjUepia480XUjJKjWgz4y -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RwjUepia480XUjJKjWgz4y">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RYoKcuWRnwb6WMQWHH0Nkg"/>
+        <dc:creator xml:lang="tr">Piyadeoğlu, Cihan</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2020</dc:date>
+        <dc:format xml:lang="tr">Basılı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9786057635648</dc:identifier>
+        <dc:language xml:lang="tr">Türkçe</dc:language>
+        <dc:publisher xml:lang="tr">Kronik Kitap</dc:publisher>
+        <dc:subject xml:lang="tr">Tarih, Büyük Selçuklu</dc:subject>
+        <dc:title xml:lang="tr">Büyük Selçuklular: Yeni Bir Devrin Başlangıcı</dc:title>
+        <rdfs:label xml:lang="tr">Büyük Selçuklular: Yeni Bir Devrin Başlangıcı</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.amazon.com.tr/Büyük-Selçuklular-Yeni-Devrin-Başlangıcı/dp/6057635647/ref=sr_1_1?__mk_tr_TR=ÅMÅŽÕÑ&amp;crid=2XVL8YMXH72LL&amp;keywords=Büyük+selçuklu&amp;qid=1650716300&amp;sprefix=büyük+selçuklu%2Caps%2C148&amp;sr=8-1"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
+
